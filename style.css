@@ -68,7 +68,7 @@ nav li a:hover{
     height: 45vh;
     position: absolute;
     z-index: -1;
-    background-image: url(assets/bg-gradient.jpg);
+    background-image: url(assets/bg-banner.jpg);
 }
 
 .profil {

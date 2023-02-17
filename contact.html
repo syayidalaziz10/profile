@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-contact.css">
+    <title>Kontak | Aziz</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="assets/logo.png" alt="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="about.html">Tentang</a></li>
+                <li><a href="contact.html">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="container-layout">
+                <div class="contact-biodata">
+                    <section class="title">
+                        <h1>Kontak Saya</h1>
+                        <p>Kalian dapat menghubungi kontak saya, untuk berdiskusi bersama!</p>
+                    </section>
+                    <section class="biodata">
+                        <h2>Lokasi</h2>
+                        <img src="assets/flag.png" alt="flag-ind">
+                        <medium>Lamongan, Indonesia</medium>
+                    </section>
+                    <section class="biodata">
+                        <h2>Email</h2>
+                        <medium>syayidalaziz15@gmail.com</medium>
+                    </section>
+                    <section class="biodata">
+                        <h2>Instagram</h2>
+                        <medium>@syayidalaziz_ <a href="https://www.instagram.com/syayidalaziz_/">↗</a></medium>
+                    </section>
+                    <section class="biodata">
+                        <h2>GitHub</h2>
+                        <medium>syayidalaziz10 <a href="https://github.com/syayidalaziz10">↗</a></medium>
+                    </section>
+                </div>
+                <div class="contact-form">
+                    <section class="form-title">
+                        <h1>Tanyakan Sesuatu</h1>
+                        <p>Hi! Tanyakan sesuatu kepada saya melalui form ini</p>
+                    </section>
+                    <section class="form-input">
+                        <form action="#">
+                            <label for="name">Nama</label>
+                            <input id="name" type="text" placeholder="Masukkan nama anda" required>
+                            <label for="email">Email</label>
+                            <input id="email" type="email" placeholder="Masukkan email anda" required>
+                            <label for="subject">Subject</label>
+                            <input id="subject" type="text" placeholder="Masukkan subject pesan" required>
+                            <label for="message">Pesan</label>
+                            <textarea  id="message" required></textarea>
+                            <button type="submit" onclick="sendemail()">Kirim Pesan</button>
+                        </form>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
