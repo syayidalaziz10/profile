@@ -126,6 +126,10 @@ main {
     margin: 10px 0;
 }
 
+.form-input textarea {
+    font-family: 'Poppins';
+}
+
 .form-input input, .form-input textarea{
     width: 100%;
     padding: 10px;
